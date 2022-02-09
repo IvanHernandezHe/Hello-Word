@@ -2,10 +2,10 @@
 
 F = float(input("Ingresa los grados fahrenheint para convertirlos: "))
 
-C = (F/1.8)-32
-K = C+273.25
+C = (F-32)*(5/9)
+K = ((F-32)*(5/9))+273.15
 
 #Hola hice un cambio desde VSCode WEB
 print("Los grados celsius son: ",C)
 
-print("Los grados Kelvin son: ",K)  
+print("Los grados Kelvin son: ",K)
